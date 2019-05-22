@@ -1,7 +1,8 @@
 function produceDrivingRange(blockRange) {
   return function(start, end)  {
-    if (start - end <= blockRange || end - start <= blockRange)
-      return ``;
+    let travelRange = start - end;
+    if (start - end <= blockRange)
+      return `${travelRange}`;
       
     else {
       return ``;
