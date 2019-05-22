@@ -5,7 +5,7 @@ function produceDrivingRange(blockRange) {
       
     
     else {
-      
+      return ``;
     }
     
   }
