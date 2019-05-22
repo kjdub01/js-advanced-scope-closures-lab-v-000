@@ -1,6 +1,13 @@
 function produceDrivingRange(blockRange) {
   return function(start, end)  {
-    return 
+    if (start - end <= blockRange || end - start <= blockRange
+      return ``;);
+      
+    
+    else {
+      
+    }
+    
   }
 }
 
