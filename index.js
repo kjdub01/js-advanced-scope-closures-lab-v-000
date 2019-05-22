@@ -2,16 +2,14 @@ function produceDrivingRange(blockRange) {
   return function(start, end)  {
     let travelRange = start - end;
     if (start - end <= blockRange)
-      return `${travelRange}`;
+      return `within range by ${travelRange}`;
       
     else {
-      return ``;
+      return `${travelRange} blocks out of range`;
     }
     
   }
 }
-
-'within range by 4'
 
 function produceTipCalculator(tipPercentage) {
   return function (fare) {
