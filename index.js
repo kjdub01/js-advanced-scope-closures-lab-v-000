@@ -11,6 +11,8 @@ function produceDrivingRange(blockRange) {
   }
 }
 
+'within range by 4'
+
 function produceTipCalculator(tipPercentage) {
   return function (fare) {
     return fare * tipPercentage;
