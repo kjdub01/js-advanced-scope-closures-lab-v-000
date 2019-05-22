@@ -3,8 +3,8 @@ function produceDrivingRange(blockRange) {
     let start = parseInt( startBlock );
     let end = parseInt( endBlock );
     let travelRange = Math.abs( end - start );
-    let 
-    if (start - end <= blockRange)
+    let difference = blockRange - travelRange;
+    if (difference > 0 )
       return `within range by ${travelRange}`;
       
     else {
